@@ -1,0 +1,14 @@
+Usage: ghunt [-h] {login,email,gaia,drive,geolocate} ...
+
+Positional Arguments:
+  {login,email,gaia,drive,geolocate}
+    login               Authenticate GHunt to Google.
+    email               Get information on an email address.
+    gaia                Get information on a Gaia ID.
+    drive               Get information on a Drive file or folder.
+    geolocate           Geolocate a BSSID.
+    spiderdal           Find assets using Digital Assets Links.
+
+Options:
+  -h, --help            show this help message and exit
+$ ghunt email <email_address> --json user_data.json
